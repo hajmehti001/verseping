@@ -1,4 +1,4 @@
-<h1 align="center">💦 پنل BPB</h1> 
+<h1 align="center">🌩️ پنل VP</h1> 
 
 #### 🌏 [English](README.md)
 
@@ -14,13 +14,13 @@
 * با **Cloudflare Workers**
 * با **Cloudflare Pages**
 
-🌟 اگه **پنل BPB** براتون مفید بوده، با حمایتتون بهم دلگرمی می‌دید 🌟
+<!-- 🌟 اگه **پنل VP** براتون مفید بوده، با حمایتتون بهم دلگرمی می‌دید 🌟
 
 ### USDT (BEP20)
 
 ```text
 0xbdf15d41C56f861f25b2b11C835bd45dfD5b792F
-```
+``` -->
 
 ## ویژگی‌ها
 
@@ -40,12 +40,12 @@
 * **اتصال UDP**: پروتکل‌های VLESS و Trojan روی Workerها نمی‌تونن UDP رو به‌خوبی پشتیبانی کنن، برای همین به‌صورت پیش‌فرض غیرفعاله (این روی امکاناتی مثل تماس تصویری تلگرام تأثیر می‌ذاره). DNSهای UDP هم پشتیبانی نمی‌شن. به جاش DoH فعاله که امن‌تره.
 * **محدودیت تعداد درخواست**: هر Worker برای VLESS و Trojan روزانه 100 هزار درخواست پشتیبانی می‌کنه، که برای 2-3 نفر کافیه. برای اتصال نامحدود می‌تونید از دامنه شخصی (برای VLESS/Trojan با روش Workers) یا کانفیگ‌های Warp استفاده کنید.
 
-## شروع به کار
+<!-- ## شروع به کار
 
-* [روش‌های راه‌اندازی](https://bia-pain-bache.github.io/BPB-Worker-Panel/fa/installation/wizard/)
-* [راهنمای تنظیمات](https://bia-pain-bache.github.io/BPB-Worker-Panel/fa/configuration/)
-* [نحوه‌ی استفاده](https://bia-pain-bache.github.io/BPB-Worker-Panel/fa/usage/)
-* [پرسش‌های متداول (FAQ)](https://bia-pain-bache.github.io/BPB-Worker-Panel/en/faq/)
+* [روش‌های راه‌اندازی](https://bia-pain-bache.github.io/VP-Worker-Panel/fa/installation/wizard/)
+* [راهنمای تنظیمات](https://bia-pain-bache.github.io/VP-Worker-Panel/fa/configuration/)
+* [نحوه‌ی استفاده](https://bia-pain-bache.github.io/VP-Worker-Panel/fa/usage/)
+* [پرسش‌های متداول (FAQ)](https://bia-pain-bache.github.io/VP-Worker-Panel/en/faq/) -->
 
 ## برنامه‌های پشتیبانی شده
 <div dir="rtl">
@@ -178,7 +178,7 @@
       <td>Proxy IP برای VLESS و Trojan</td>
     </tr>
     <tr>
-      <td><b>PREFIX</b></td>
+      <td><b>NAT64_PREFIX</b></td>
       <td>NAT64 Prefix برای VLESS و Trojan</td>
     </tr>
     <tr>
@@ -196,15 +196,3 @@
   </tbody>
 </table>
 </div>
-
----
-## تعداد ستاره‌ها به مرور زمان
-
-[![تعداد ستاره‌ها به مرور زمان](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
-
----
-### تشکر ویژه
-
-- نویسنده پروتکل‌های VLESS و Trojan <a href="https://github.com/yonggekkk/Cloudflare-workers-pages-vless">پروکسی Cloudflare-workers/pages</a>
-- نویسنده کد CF-vless <a href="https://github.com/3Kmfi6HP/EDtunnel">3Kmfi6HP</a>
-- نویسنده برنامه IP ترجیحی CF <a href="https://github.com/badafans/Cloudflare-IP-SpeedTest">badafans</a>، <a href="https://github.com/XIU2/CloudflareSpeedTest">XIU2</a>

@@ -1,4 +1,4 @@
-<h1 align="center">BPB Panel 💦</h1>
+<h1 align="center">VP Panel 🌩️</h1>
 
 ### 🌏 Readme in [Farsi](README_fa.md)
 
@@ -14,13 +14,13 @@ This project is aimed to provide a user panel to access FREE, SECURE and PRIVATE
 - **Workers** deployment
 - **Pages** deployment
 
-🌟 If you found **BPB Panel** valuable, Your donations make all the difference 🌟
+<!-- 🌟 If you found **VP Panel** valuable, Your donations make all the difference 🌟
 
 ### USDT (BEP20)
 
 ```text
 0xbdf15d41C56f861f25b2b11C835bd45dfD5b792F
-```
+``` -->
 
 ## Features
 
@@ -42,10 +42,10 @@ This project is aimed to provide a user panel to access FREE, SECURE and PRIVATE
 
 ## Getting started
 
-- [Installation methods](https://bia-pain-bache.github.io/BPB-Worker-Panel/installation/wizard/)
-- [Configuration](https://bia-pain-bache.github.io/BPB-Worker-Panel/configuration/)
-- [How to use](https://bia-pain-bache.github.io/BPB-Worker-Panel/usage/)
-- [FAQ](https://bia-pain-bache.github.io/BPB-Worker-Panel/faq/)
+- [Installation methods](#)
+- [Configuration](#)
+- [How to use](#)
+- [FAQ](#)
 
 ## Supported Clients
 
@@ -70,26 +70,14 @@ This project is aimed to provide a user panel to access FREE, SECURE and PRIVATE
 
 ## Environment variables
 
-|   Variable   |               Usage                |
-| :----------: | :--------------------------------: |
-|   **UUID**   |             VLESS UUID             |
-| **TR_PASS**  |          Trojan Password           |
-| **PROXY_IP** | Proxy IP or domain (VLESS, Trojan) |
-|  **PREFIX**  |   NAT64 Prefixes (VLESS, Trojan)   |
-| **SUB_PATH** |         Subscriptions' URI         |
-| **FALLBACK** |  Fallback domain (VLESS, Trojan)   |
-| **DOH_URL**  |              Core DOH              |
+|     Variable     |               Usage                |
+| :--------------: | :--------------------------------: |
+|     **UUID**     |             VLESS UUID             |
+|   **TR_PASS**    |          Trojan Password           |
+|   **PROXY_IP**   | Proxy IP or domain (VLESS, Trojan) |
+| **NAT64_PREFIX** |   NAT64 Prefixes (VLESS, Trojan)   |
+|   **SUB_PATH**   |         Subscriptions' URI         |
+|   **FALLBACK**   |  Fallback domain (VLESS, Trojan)   |
+|   **DOH_URL**    |              Core DOH              |
 
 ---
-
-## Stargazers Over Time
-
-[![Stargazers Over Time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
-
----
-
-### Special Thanks
-
-- VLESS, Trojan [Cloudflare-workers/pages proxy script](https://github.com/yonggekkk/Cloudflare-workers-pages-vless) created by [yonggekkk](https://github.com/yonggekkk)
-- CF-vless code author [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)
-- CF preferred IP program author [badafans](https://github.com/badafans/Cloudflare-IP-SpeedTest), [XIU2](https://github.com/XIU2/CloudflareSpeedTest)
